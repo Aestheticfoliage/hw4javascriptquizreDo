@@ -1,0 +1,12 @@
+body{
+    background-color: aquamarine
+}
+.container{
+    display: inline;
+    margin: 80px;
+    text-align: center;
+    box-shadow: 0 8px 12px 0 rgba(red, green, blue, alpha);
+}
+#question{
+    
+}
