@@ -1,18 +1,27 @@
-var correct = document.querySelector(".Correct");
-var incorrect = document.querySelector(".Incorrect");
-
+var questionprompt = document.getElementsByClassName("Question");
+var answer = {} ;
+var scores = "";
+var finalScore = {};
 var correctAnswer = "";
 var incorrectAnswer = "";
-var question = prompt("Which Vegetable do you like best?", "enter vegetable")
+// var questionVarieties = ["Experience", "Resources", "Participation", "Preferences"]
 
-var questions = [];
 
-function init() {
-    getcorrect();
-    getincorrect();
+var questionArray = ["How long have you been gardening?", "Have you Saved Seeds Before?"];
+console.log(Question);
+
+ function askQuestion(questionArray[1]) {
+    var prompt = window.alert();
+    console.log(questionArray[1]);
 }
 
-function startGame() {
-    iscorrect = false;
-    tim
-}
+
+// var correct = function() {
+//     if answer
+// }
+
+askQuestion();
+
+// function startGame() {
+//     iscorrect = false;
+// }
